@@ -7,14 +7,10 @@
 - What are the trade-offs between static typing, dynamic typing, and gradual typing in terms of space/time complexity and runtime performance?
 - How have recent advancements in type inference improved gradual typing systems?
 
----
-
 ## **References**
 - Research papers on gradual typing.
 - Articles on performance analysis of gradual typing.
 - Documentation from language repositories.
-
----
 
 ## **Introduction**
 Gradual typing is to mix static and dynamic typing in the same codebase. Doing this ensures type safety and data type flexibility. This literature review investigates the trade-offs in performance and reliability of gradual typing in modern programming languages like TypeScript and Python.
