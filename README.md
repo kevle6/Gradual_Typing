@@ -1,6 +1,6 @@
 # Gradual Typing in Programmning Languages
 
-**Questions:**
+## **Questions:**
 - What is the history of gradual typing?
 - Which programming languages have gradual typing, and how has it affected their usage?
 - How does gradual typing influence software maintainability and developer productivity?
