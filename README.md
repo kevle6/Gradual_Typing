@@ -1,5 +1,7 @@
 # Gradual Typing in Programming Languages
 
+Name: Kevin Le
+
 ## **Questions:**
 - What is the history of gradual typing?
 - Which programming languages have gradual typing, and how has it affected their usage?
