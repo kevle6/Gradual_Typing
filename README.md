@@ -15,7 +15,7 @@
 ## **Introduction**
 Gradual typing is to mix static and dynamic data typing in the same codebase. Doing this ensures data type safety and flexibility. This literature review investigates the performance and reliability of gradual typing in modern programming languages like TypeScript and Python.
 
-## **Exploration Using LLM**
+## **Exploration Using LLMs (GPT-4o and Claude 3.5 Sonnet)**
 
 1. **Historical Background**
 
