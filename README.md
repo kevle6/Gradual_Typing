@@ -1,13 +1,14 @@
 # Kevin Le - Gradual Typing in Programming Languages
 
 ## **Questions**
+
+The LLMs were prompted to give more detailed answers to the following questions (e.g., using "Dive deeper into these points")[^1].
+
 - What is the history of gradual typing?
 - Which programming languages have gradual typing, and how has it affected their usage?
 - How does gradual typing influence software maintainability and developer productivity?
 - What are the trade-offs between static typing, dynamic typing, and gradual typing in terms of space/time complexity and runtime performance?
 - How have recent advancements in type inference improved gradual typing systems?
-
-The LLMs were prompted to give more detailed answers to these questions (e.g., using "Dive deeper into these points")[^1].
 
 [^1]: Claude Sonnet 3.5 expanded on more technical details of how each mentioned programming language implemented gradual programming. This detracted from understanding the main purpose of gradual programming, which is why it was excluded from this literature review.
 
