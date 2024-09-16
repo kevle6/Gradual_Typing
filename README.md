@@ -9,9 +9,9 @@ Name: Kevin Le
 - What are the trade-offs between static typing, dynamic typing, and gradual typing in terms of space/time complexity and runtime performance?
 - How have recent advancements in type inference improved gradual typing systems?
 
-The LLMs were prompted to expand details on these questions (e.g. "Dive deeper into these points")[^1].
+The LLMs were prompted to give more detailed answers to these questions (e.g., using "Dive deeper into these points")[^1].
 
-[^1]: Claude Sonnet 3.5 had expanded on more technical details of how each programming language mentioned implemented gradual programming. This detracted from understanding the main purpose of gradual programming.
+[^1]: Claude Sonnet 3.5 expanded on more technical details of how each mentioned programming language implemented gradual programming. This detracted from understanding the main purpose of gradual programming, which is why it was excluded from this literature review.
 
 ## **Concepts**
 
@@ -35,7 +35,7 @@ Gradual typing is to mix static and dynamic data typing in the same codebase. Do
 
 Before gradual typing, the field was divided into two camps: statically typed languages, which prioritized early error detection, and dynamically typed languages, which emphasized flexibility. Languages like JavaScript, Ruby, and Python began as dynamically typed, prioritizing rapid development cycles over static type safety. 
 
-Gradual typing emerged in the mid-2000s as a way to combine the benefits of both static and dynamic typing. The concept was introduced by Jeremy Siek and Walid Taha in their 2006 paper *Gradual Typing for Functional Languages*. The motivation was to offer flexibility, allowing developers to start with dynamic typing and introduce static types incrementally. Their research showed that gradual typing could be integrated into functional languages, but its principles have since been adopted by object-oriented and scripting languages. Other notable contributors include Sam Tobin-Hochstadt and Matthias Felleisen, who extended the theory of gradual typing to object-oriented programming languages through their work on Typed Racket. In the realm of Python, the introduction of PEP 484 by Guido van Rossum and the ongoing development of the `mypy` type checker have popularized type hints. This hybrid typing system gained popularity as dynamically typed languages like JavaScript and Python provided a way to introduce static types for added reliability without losing flexibility. 
+Gradual typing emerged in the mid-2000s as a way to combine the benefits of both static and dynamic typing. The concept was introduced by Jeremy Siek and Walid Taha in their 2006 paper *Gradual Typing for Functional Languages*. The motivation was to offer flexibility, allowing developers to start with dynamic typing and introduce static types incrementally. Their research showed that gradual typing could be integrated into functional languages, but its principles have since been adopted by object-oriented and scripting languages. Other notable contributors include Sam Tobin-Hochstadt and Matthias Felleisen, who extended the theory of gradual typing to object-oriented programming languages through their work on Typed Racket. In Python, the introduction of PEP 484 by Guido van Rossum and the ongoing development of the `mypy` type checker have popularized type hints. This hybrid typing system gained popularity as dynamically typed languages like JavaScript and Python provided a way to introduce static types for added reliability without losing flexibility. 
 
 Key milestones in its development include:
 - 2006: Introduction of gradual typing concept
