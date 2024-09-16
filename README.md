@@ -1,6 +1,4 @@
-# Gradual Typing in Programming Languages
-
-Name: Kevin Le
+# Kevin Le - Gradual Typing in Programming Languages
 
 ## **Questions**
 - What is the history of gradual typing?
