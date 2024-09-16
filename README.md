@@ -24,6 +24,7 @@ The LLMs were prompted to give more detailed answers to the following questions 
 - Guido van Rossum, Jukka Lehtosalo, Łukasz Langa (2014). [PEP 484: Type Hints for Python](https://peps.python.org/pep-0484/)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html). (See section for `any` type)
 - Ben Greenman and Matthias Felleisen. 2018. [A Spectrum of Type Soundness and Performance](https://www2.ccs.neu.edu/racket/pubs/icfp18-gf.pdf). Proc. ACM Program. Lang. 2, ICFP, Article 71 (September 2018), 31 pages. https://doi.org/10.1145/3236766
+- Rastogi et al. [*Safe & Efficient Gradual Typing for TypeScript*](https://goto.ucsd.edu/~pvekris/docs/safets.pdf)
 
 ## **Introduction**
 Gradual typing is to mix static and dynamic data typing in the same codebase. Doing this ensures data type safety and flexibility. This literature review investigates the performance and reliability of gradual typing in modern programming languages, such as TypeScript, Python, and many others.
@@ -44,7 +45,6 @@ Key milestones in its development include:
 #### Detailed History of Gradual Typing
 
 ##### Early Foundations (2000-2006)
-- The groundwork for gradual typing was laid by research into combining static and dynamic typing.
 - In 2002, Strongtalk, an optional type system for Smalltalk, was released, showcasing early ideas of mixing static and dynamic typing.
 - 2002: "Combining Static and Dynamic Typing in Ruby" by Michael Furr et al. explored early ideas of mixing typing disciplines.
 
@@ -83,7 +83,7 @@ The adoption of gradual typing has generally increased the usage and popularity 
 
 ### **Subfields of PL**
 
-The development of gradual typing required collaboration between type theory and compiler optimization techniques, and from subfields related to type inference and type soundness (software correctness). Researchers have explored how to build type systems that can accommodate both static and dynamic checks without sacrificing efficiency. Advances in compiler design have also been critical, particularly in optimizing the runtime performance of gradually typed languages. Additionally, gradual typing interacts with subfields like runtime verification and program analysis, where dynamic type checks need to be efficient.
+The development of gradual typing required collaboration between type theory and compiler optimization techniques and from subfields related to type inference and type soundness (software correctness). Researchers have explored how to build type systems that can accommodate both static and dynamic checks without sacrificing efficiency. Advances in compiler design have also been critical, particularly in optimizing the runtime performance of gradually typed languages. Additionally, gradual typing interacts with subfields like runtime verification and program analysis.
 
 ### **Performance Comparison between Static, Dynamic, and Gradual Typing**
    
@@ -156,13 +156,13 @@ e) Performance Impact:
 - Some gradual typing implementations (e.g., TypeScript) have no runtime overhead.
 - Others (e.g., Python's runtime type checking) can introduce performance penalties.
 
-Overall, gradual typing tends to improve maintainability and productivity, especially in larger codebases and teams.
+Gradual typing improves maintainability and productivity, especially in larger codebases and teams.
 
 ### **Recent Research Trends**
    
 Recent trends in gradual typing include improvements in type inference algorithms, reducing the cognitive load for developers when transitioning from dynamic to static typing. Researchers are also investigating ways to optimize runtime type checks through static analysis techniques. For example, Just-In-Time (JIT) compilers are being designed to perform type checks more efficiently, reducing the runtime performance overhead often associated with gradual typing systems.
 
-Research on compiler optimizations for reducing runtime type checks' performance cost is ongoing. A relevant paper is [*Safe & Efficient Gradual Typing for TypeScript*](https://goto.ucsd.edu/~pvekris/docs/safets.pdf) by Rastogi et al., which focuses on optimizing type checking in large-scale systems.
+Research on compiler optimizations for reducing runtime type checks' performance cost is ongoing. A relevant paper is [*Safe & Efficient Gradual Typing for TypeScript*](https://goto.ucsd.edu/~pvekris/docs/safets.pdf) by Rastogi et al., which focuses on optimizing type checking in large-scale systems. They create "Safe Typescript" that catches any dynamic type error and does not alter the semantics of type-safe TypeScript code, while minimizing the performance overhead of runtime checks.
 
 Recent advancements in type inference have improved gradual typing systems:
 
