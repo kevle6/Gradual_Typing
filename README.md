@@ -26,6 +26,12 @@ The LLMs were prompted to give more detailed answers to the following questions 
 - Ben Greenman and Matthias Felleisen. 2018. [A Spectrum of Type Soundness and Performance](https://www2.ccs.neu.edu/racket/pubs/icfp18-gf.pdf). Proc. ACM Program. Lang. 2, ICFP, Article 71 (September 2018), 31 pages. https://doi.org/10.1145/3236766
 - Rastogi et al. [*Safe & Efficient Gradual Typing for TypeScript*](https://goto.ucsd.edu/~pvekris/docs/safets.pdf)
 
+## **Key Researchers and Contributors**
+- Jeremy Siek, Walid Taha, and Philip Wadler have been instrumental in developing the theoretical foundations.
+- Anders Hejlsberg led the development of TypeScript at Microsoft.
+- Guido van Rossum and Jukka Lehtosalo drove the adoption of type hints in Python.
+- Sam Tobin-Hochstadt and Matthias Felleisen contributed significantly to gradual typing theory and practice.
+
 ## **Introduction**
 Gradual typing is to mix static and dynamic data typing in the same codebase. Doing this ensures data type safety and flexibility. This literature review investigates the performance and reliability of gradual typing in modern programming languages, such as TypeScript, Python, and many others.
 
@@ -227,11 +233,5 @@ g) Optional and nullable types:
   ```
 
 These advancements continue to push the boundaries of what's possible with gradual typing, making it an increasingly attractive option for large-scale software development. Gradual typing systems more powerful and user-friendly, reducing the annotation burden on developers while providing stronger type guarantees.
-
-## Key Researchers and Contributors
-- Jeremy Siek, Walid Taha, and Philip Wadler have been instrumental in developing the theoretical foundations.
-- Anders Hejlsberg led the development of TypeScript at Microsoft.
-- Guido van Rossum and Jukka Lehtosalo drove the adoption of type hints in Python.
-- Sam Tobin-Hochstadt and Matthias Felleisen contributed significantly to gradual typing theory and practice.
 
 The evolution of gradual typing represents a significant shift in programming language design, bridging the gap between static and dynamic typing paradigms. Recent research focuses on performance optimization, type inference improvements, and formal guarantees for gradually typed programs.
