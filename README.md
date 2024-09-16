@@ -14,15 +14,15 @@ The LLMs were prompted to give more detailed answers to the following questions 
 
 ## **Concepts**
 
-- Static Data Type: Defined during compile time and cannot change during runtime. This behavior is because of static type checking.
+- Static Data Type: The data type is defined during compile time and cannot change during runtime. This behavior is because of static type checking.
 - Dynamic Data Type: Allows variables to change their data type during runtime.
 
 ## **References**
-- BairesDev Editorial Team [Difference Between Static and Dynamic Data Types](https://www.bairesdev.com/blog/static-vs-dynamic-typing/)
+- BairesDev Editorial Team. [Difference Between Static and Dynamic Data Types](https://www.bairesdev.com/blog/static-vs-dynamic-typing/)
 - Jeremy Siek and Walid Taha (2006). [*Gradual Typing for Functional Languages*](http://scheme2006.cs.uchicago.edu/13-siek.pdf)
 - Sam Tobin-Hochstadt and Matthias Felleisen (2010). [*Logical Types for Untyped Languages*](https://www2.ccs.neu.edu/racket/pubs/icfp10-thf.pdf)
 - Guido van Rossum, Jukka Lehtosalo, Łukasz Langa (2014). [PEP 484: Type Hints for Python](https://peps.python.org/pep-0484/)
-- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html) (See section for `any` type)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html). (See section for `any` type)
 - Ben Greenman and Matthias Felleisen. 2018. [A Spectrum of Type Soundness and Performance](https://www2.ccs.neu.edu/racket/pubs/icfp18-gf.pdf). Proc. ACM Program. Lang. 2, ICFP, Article 71 (September 2018), 31 pages. https://doi.org/10.1145/3236766
 
 ## **Introduction**
