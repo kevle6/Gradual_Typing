@@ -89,15 +89,9 @@ The development of gradual typing required collaboration between type theory and
    
 Gradual typing introduces runtime overhead due to type checks between static and dynamic sections. Recent research focuses on optimizing these checks and enhancing type inference algorithms to mitigate performance issues.
 
-Space/Time Complexity:
-- Static typing: Generally lowest runtime overhead
-- Dynamic typing: Higher runtime overhead due to dynamic type checks
-- Gradual typing: Can have overhead between static and dynamic, depending on implementation
-
-Runtime Performance:
-- Static typing: Usually offers the best performance due to compile-time optimizations
-- Dynamic typing: Often slower due to runtime type checks and less opportunity for optimization
-- Gradual typing: Performance can vary; typed portions can be optimized, while untyped portions retain flexibility
+- Static typing: Generally has the lowest runtime overhead. Usually offers the best performance due to compile-time optimizations.
+- Dynamic typing: Higher runtime overhead due to dynamic type checks. Often slower due to runtime type checks and less opportunity for optimization.
+- Gradual typing: Performance can vary; typed portions can be optimized, while untyped portions retain flexibility. Can have overhead between static and dynamic, depending on implementation.
 
 Let's examine some specific scenarios and benchmarks:
 
